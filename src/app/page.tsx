@@ -1,3 +1,9 @@
+import { Button, Container } from '@mui/material';
+
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <Container maxWidth="lg">
+      <Button variant="contained">Submit</Button>
+    </Container>
+  );
 }
